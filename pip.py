@@ -75,6 +75,7 @@ elif menu == 'Log In':
                 st.subheader("Start your analysis")
 
                 uploaded_file = st.file_uploader("Choose a file")
+                st.markdown("[Clicca qui per scaricare un Dataset di esempio](https://docs.google.com/spreadsheets/d/1YlKiVthYtGZbh0mrIHDf7DkTUMaAFuuCjgQ9wOc8BqI/edit#gid=0)", unsafe_allow_html=False)
                 if uploaded_file is not None:
                     try:
                         # Numero eventi
